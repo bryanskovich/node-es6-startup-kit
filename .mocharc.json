@@ -1,0 +1,14 @@
+{
+    "require": "@babel/register",
+    "diff": true,
+    "extension": [
+        "js"
+    ],
+    "package": "./package.json",
+    "reporter": "spec",
+    "timeout": 3000,
+    "ui": "bdd",
+    "watch-files": [
+        "test/*.js"
+    ]
+}

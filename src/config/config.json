@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "bryanskovich",
+    "password": "Ghost@2020**",
+    "database": "setup",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "bryanskovich",
+    "password": "Ghost@2020**",
+    "database": "setup",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "bryanskovich",
+    "password": "Ghost@2020**",
+    "database": "setup",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

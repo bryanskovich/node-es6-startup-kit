@@ -1,0 +1,42 @@
+{
+  "name": "es6-startup-kit",
+  "version": "1.0.0",
+  "description": "Es6 project setup ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build": "rimraf dist && babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanskovich/node-es6-startup-kit.git"
+  },
+  "author": "bryanskovich <gilchristbryanadjei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanskovich/node-es6-startup-kit/issues"
+  },
+  "homepage": "https://github.com/bryanskovich/node-es6-startup-kit#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express-api-error-handler-v2": "^1.0.2",
+    "express-mongo-api-setup": "0.0.3",
+    "mocha": "^8.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=12.19"
+  }
+}
