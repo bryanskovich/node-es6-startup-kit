@@ -22,7 +22,7 @@
     "chai": "^4.2.0",
     "express-api-error-handler-v2": "^1.0.2",
     "express-mongo-api-setup": "0.0.3",
-    "mocha": "^8.2.1",
+    "mocha": "^10.1.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "rimraf": "^3.0.2",
